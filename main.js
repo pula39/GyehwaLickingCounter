@@ -18,11 +18,21 @@ function updateCounter() {
     playImage();
 }
 
+// function playImage() {
+//     $(function () {
+//         var image = new Image();
+//         image.src = './src/images/licking.gif';
+//         $('#counterImage').click(function () {
+//             $(this).attr('src', image.src);
+//         });
+//     });
+// }
 function playImage() {
     $(function () {
         var image = new Image();
         image.src = './src/images/licking.gif';
         $('#counterImage').click(function () {
+            $(this).attr('src', "");
             $(this).attr('src', image.src);
         });
     });
