@@ -1,0 +1,73 @@
+@font-face {
+    font-family: 'junegullregular';
+    src: url('src/font/junegull_rg-webfont.woff2') format('woff2'),
+        url('src/font/junegull_rg-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'comfortaa';
+    src: url('src/font/comfortaa-bold-webfont.woff2') format('woff2'),
+        url('src/font/comfortaa-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+html,
+body {
+    font-family: "junegullregular";
+    background-color: #8f63A5;
+    height: 100%;
+    width: 100%;
+}
+
+html {
+    display: table;
+    margin: auto;
+}
+
+body {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
+#counted {
+    font-size: 40px;
+}
+
+#countTitle {
+    font-size: 14px;
+}
+
+#countTitle2 {
+    font-size: 12px;
+}
+
+#WAH {
+    border-radius: 0.7em;
+    opacity: 0.3;
+    transition: .5s ease;
+}
+
+#WAH:hover {
+    opacity: 1;
+    transition: .5s ease;
+}
+
+#bio {
+    font-family: "comfortaa";
+    font-size: 9px;
+}
+
+#Footer {
+    font-family: "comfortaa";
+    font-size: 9px;
+    opacity: 0.7;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
