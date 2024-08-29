@@ -31,7 +31,7 @@ function playImage() {
 function getRandomNoise() {
     const f = "./src/audio/";
     var randomInt = parseInt(document.getElementById("sessionCount").innerHTML) % 2 + 1;
-    var w = f + "lick" + randomInt + ".wav";
+    var w = f + "lick" + randomInt + ".mp3";
     return w;
 }
 
