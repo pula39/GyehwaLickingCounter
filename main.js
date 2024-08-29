@@ -21,7 +21,7 @@ function updateCounter() {
 function playImage() {
     $(function () {
         var image = new Image();
-        image.src = 'src/images/licking.gif';
+        image.src = './images/licking.gif';
         $('#counterImage').click(function () {
             $(this).attr('src', image.src);
         });
@@ -29,7 +29,7 @@ function playImage() {
 }
 
 function getRandomNoise() {
-    const f = "./src/audio/";
+    const f = "./audio/";
     var randomInt = parseInt(document.getElementById("sessionCount").innerHTML) % 2 + 1;
     var w = f + "lick" + randomInt + ".wav";
     return w;
