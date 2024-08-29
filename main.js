@@ -39,7 +39,6 @@ function updateClicks(addNum = "False") {
     $.ajax({
         url: "https://4epk4wx25ffur6udpbnhrlglue0rhrdv.lambda-url.ap-northeast-2.on.aws/",
         type: "POST",
-		contentType: "application/json",
         data: JSON.stringify({ 'licking': addNum }),
         success: function (returnData) {
             console.log(returnData);
