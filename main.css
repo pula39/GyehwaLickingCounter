@@ -43,6 +43,12 @@ body {
     font-size: 14px;
 }
 
+#counterImage {
+    height: 30%;
+    width: 30%;
+}
+
+
 #countTitle2 {
     font-size: 12px;
 }
